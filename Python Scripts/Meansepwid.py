@@ -12,7 +12,7 @@ secondcol = data[:,1] # read column 1- the second column
 
 meansecondcol = numpy.mean(data[:,1])
 
-print("Average of the first column is: ", meansecondcol)
+print("Average of the secon column is: ", meansecondcol)
 
 import matplotlib.pyplot as pl
 pl.hist(secondcol) # prints a histogram detailing the Sepal Widths
