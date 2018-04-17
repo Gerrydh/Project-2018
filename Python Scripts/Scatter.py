@@ -1,55 +1,22 @@
-"""
-Simple demo of a scatter plot.
-"""
-import numpy as np
-import matplotlib.pyplot as plt
+# Load the data
+# http://www.scipy-lectures.org/packages/scikit-learn/auto_examples/plot_iris_scatter.html
+from sklearn.datasets import load_iris
+iris = load_iris()
 
+from matplotlib import pyplot as plt
 
-N = 50
-x = np.random.rand(N)
-y = np.random.rand(N)
-colors = np.random.rand(N)
-area = np.pi * (15 * np.random.rand(N))**2  # 0 to 15 point radii
+# The indices of the features that we are plotting
+x_index = 0
+y_index = 1
 
-plt.scatter(x, y, s=area, c=colors, alpha=0.5)
+# this formatter will label the colorbar with the correct target names
+formatter = plt.FuncFormatter(lambda i, *args: iris.target_names[int(i)])
+
+plt.figure(figsize=(5, 4))
+plt.scatter(iris.data[:, x_index], iris.data[:, y_index], c=iris.target)
+plt.colorbar(ticks=[0, 1, 2], format=formatter)
+plt.xlabel(iris.feature_names[x_index])
+plt.ylabel(iris.feature_names[y_index])
+
+plt.tight_layout()
 plt.show()
-
-
-import numpy as np
-import matplotlib.pyplot as plt
-
-filename = ("master.kkids.obslist")
-
-data = np.loadtxt(filename,skiprows=14,dtype=str)
-
-x = data[:,7]
-y = data[:,8]
-u = data[:,18]
-v = data[:,19]
-z = data[:,20]
-
-x1 = x.astype(float)
-y1 = y.astype(float)
-
-plt.scatter(x,y)
-plt.savefig('hi.png')
-
-
-import numpy as np
-import matplotlib.pyplot as plt
-
-filename = ("master.kkids.obslist")
-
-data = np.loadtxt(filename,skiprows=14,dtype=str)
-
-x = data[:,7]
-y = data[:,8]
-u = data[:,18]
-v = data[:,19]
-z = data[:,20]
-
-x1 = x.astype(float)
-y1 = y.astype(float)
-
-plt.scatter(x,y)
-plt.savefig('hi.png')
