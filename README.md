@@ -5,7 +5,7 @@
    
    ![A picture of Fisher](Fisher2.jpg)  ![](Flower2.jpg)
    
-Ronald Fisher was a British statistician and geneticist and is regarded as the single most important figure in 20th century statistics[1]. Fisher and in particular the Iris Flower Data Set played a significant role in pattern recognition which in turn is important in the area of Data Analytics . Data Analysis can be described as the process of inspecting, cleansing, transforming and modelling data with the aim of determining valuable information, suggesting conclusions and supporting decision making[2]
+Ronald Fisher was a British statistician and geneticist and is regarded as the single most important figure in 20th century statistics[1]. Fisher and in particular the Iris Flower Data Set played a significant role in pattern recognition and discriminant analysis which in turn is important in the area of Data Analytics . Data Analysis can be described as the process of inspecting, cleansing, transforming and modelling data with the aim of determining valuable information, suggesting conclusions and supporting decision making[2]
 
 The Iris Flower Data-set is an excellent example of a resource that has become a mainstay of the computing world, particularly for testing purposes. New types of sorting and taxonomy models often use the data set as an input to examine how different technologies will sort and handle data sets. The Iris set might be used by a programmer for the purposes of testing a decision tree, or a piece of machine learning software. This is the reason the Iris Flower Data-Set is so interesting to programmers, and such is its popularity, the data-set is built into some coding libraries (techopedia.com). 
 
