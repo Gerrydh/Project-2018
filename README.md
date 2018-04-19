@@ -14,3 +14,8 @@ The Iris Flower Dataset is an excellent example of a resource that has become a 
 ## The Importance of Data Analytics 
 
 Data is considered the raw material if the 21st century (1). With the availability of data with huge volume, velocity and variety has come the potential to lead to enhance a firms decision making performance with the associated competitive advantage (Chen et al, 2012). Decision makers need to be able to gain valuable insights from such quickly fluctuating data by using big data analytics, this will enable them to make better, more informed, and faster decisions.
+
+
+## Why Python?
+
+There are many reasons why I chose to use Python to analyse the data. Firstly, as a beginner to programming it is easy to an easy to understand and relatively easy to learn language. As it is a very high-level language it reads like English, taking much of the syntax learning away. Another advantage of Python is that it has extensive support libraries that are useful for document generation, image manipulation, databases and many more. The Python interpreter is easily extended with new functions and data types implemented in C or C++. It is also cross platform so can run on many operating systems such as Microsoft Windows, Linus and Mac OS X. Python is free and open source, and there are many websites that provide useful insights to Python and are happy to help with any programming problems you might encounter!
