@@ -13,8 +13,7 @@ The Iris Flower Dataset is an excellent example of a resource that has become a 
 
 ## The Importance of Data Analytics 
 
-Data is considered the raw material if the 21st century (1). With the availability of data with huge volume, velocity and variety has come the potential to lead to enhance a firms decision making performance with the associated competitive advantage (Chen et al, 2012). Decision makers need to be able to gain valuable insights from such quickly fluctuating data by using big data analytics, this will enable them to make better, more informed, and faster decisions.
-
+Data is considered the raw material if the 21st century (1). With the availability of data with huge volume, velocity and variety has come the potential to lead to enhance a firms decision making performance with the associated competitive advantage (Chen et al, 2012). Decision makers need to be able to gain valuable insights from such quickly fluctuating data by using big data analytics, this will enable them to make better, more informed, and faster decisions. In a report by PWC, they propose that all majors should require some foundational knowledge of analytics and the data science process. Data visualisation is an excellent example of such knowledge as it mixes art and science, helping students use data to express themselves in creative ways.[4] According to Oracle, in 2013 organisations were generating 300TB of data weekly (Ward, J & Barker,A 2013). This poses a significant challenge, and oppertunity for companies. Later on we will look at how Python can analyse the Iris Dataset which is a small but not insignifcant set. 
 
 ## Why Python?
 
