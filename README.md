@@ -22,5 +22,5 @@ There are many reasons why I chose to use Python to analyse the data. Firstly, a
 
 ## Analysing the Data
 
-1. The maximun length of each column[](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Max%20and%20Min%20by%20species.py)
+1. [The maximun length of each column](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Max%20and%20Min%20by%20species.py)
 
