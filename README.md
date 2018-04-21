@@ -26,5 +26,5 @@ There are many reasons why I chose to use Python to analyse the data. Firstly, a
 
 Clicking on the link above will bring us into the code used to return the maximum and minimum value of each of the columns from the dataset. As you can see just a few lines of code were required to return these values, including the species of each flower. This we can quickly see the values and the species neatly formatted as shown in the picture below.
 
-    ![](Max & Min Values.jpg) ![](Flower2.jpg)
+    ![](Max & Min Values.jpeg) 
 
