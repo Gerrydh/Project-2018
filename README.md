@@ -24,6 +24,6 @@ There are many reasons why I chose to use Python to analyse the data. Firstly, a
 
 1. [The maximun length of each column](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Max%20and%20Min%20by%20species.py)
 
-Clicking on the link above will bring us into the code used to return the maximum and minimum value of each of the columns from the dataset. As you can see just a few lines of code were required to return these values, including the species of each flower. This we can quickly see the values and the species neatly formatted as shown in the picture below.
+Clicking on the link above will bring us into the code used to return the maximum and minimum value of each of the columns from the dataset. As you can see just a few lines of code were required to return these values, including the species of each flower. This we can quickly see the values and the species neatly formatted as shown in the image below.
 
-![](SepLen.JPG) ![](Sepwid.JPG)  ![](PetLen.JPG) ![](PetWid.JPG)
+ ![This is an image of the maximum and minimum lengths of each species](MaxMin.GIF) 
