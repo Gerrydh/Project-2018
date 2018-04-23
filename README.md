@@ -40,5 +40,5 @@ The Describe function is another that can quickly and succinctly return some use
    The average Sepal Lenght is 5.84, The range is from 4.3 to 7.9, so this would suggest that 5.84 is a reasonable result, we can investigate this furhter by reviewing the histogram that this code produced. As we can see most of the range is in and around this value so I think is a representitive value.
    
    
-   ![Histogram of the Sepal Lengths](SepalLenghts.PNG)
+   ![Histogram of the Sepal Lengths](SepalLegths.png)
   
