@@ -2,13 +2,13 @@
 # This code returns the min and max value of the sepal lenghts, Column(0).
 #https://stackoverflow.com/questions/46281738
 
-with open("Iris data2.csv") as file:
-    lines = file.read().split("\n")     #Read lines
+with open("Iris data2.csv") as file: # open, then close the Iris Dataset file
+    lines = file.read().split("\n")     #Read each line
 
-num_list = []
+num_list = [] 
 for line in lines:
     try:
-        item = line.split(",")[1] #Choose 4th column and delete ""
+        item = line.split(",")[0] #Choose 1st column which is seperated by a comma
         num_list.append(float(item))    #Try to parse 
     except:
         pass  #If it can't parse, the string is not a number
