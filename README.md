@@ -36,9 +36,14 @@ The Describe function is another that can quickly and succinctly return some use
  
  3. The Mean of each category
    
-      A. [The Sepal Length](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Meanseplen.py)
-   The average Sepal Lenght is 5.84, The range is from 4.3 to 7.9, so this would suggest that 5.84 is a reasonable result, we can investigate this furhter by reviewing the histogram that this code produced. As we can see most of the range is in and around this value so I think is a representitive value.
+      1. [The Sepal Length](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Meanseplen.py)
+   The average Sepal Lenght is 5.84. The range is from 4.3 to 7.9, so this would suggest that 5.84 is a reasonable result, we can investigate this furhter by reviewing the histogram that this code produced. As we can see most of the range is in and around this value so I think is a representitive value.
    
    
    ![Histogram of the Sepal Lengths](SepalLegths.png)
+   
+   1. [The Sepal Width](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Meansepwid.py)
+   The average Sepal Width is 3.05. The range in this category is 2.0 to 4.4. Just looking at this, it would suggest that something is a little off as in my opinion the average is too close to the lowest value. Looking at the Hitosgram will help identify any anomolies in the dataset. As we can see, the vast majority of the sepal widths are bunched very close to the median and there are not man occurances in the lowest and hightest sepal widths.
+   
+   ![Histogram of the Sepal Widths](SepalWidths.png)
   
