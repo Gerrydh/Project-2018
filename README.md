@@ -24,12 +24,19 @@ There are many reasons why I chose to use Python to analyse the data. Firstly, a
 
 1. [The maximun length of each column](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Max%20and%20Min%20by%20species.py)
 
-Clicking on the link above will bring us into the code used to return the maximum and minimum value of each of the columns from the dataset. As you can see just a few lines of code were required to return these values, including the species of each flower. Here we can quickly see the values and the species neatly formatted as shown in the image below. We can also get the same result by clicking[here](https://github.com/Gerrydh/Project-2018/edit/master/Python%20Scripts/Min%20&%20Max%20Sepal%20Lengths.py). As you can see these are two very different ways to achieve the same result. In my limited programming experience, I have not yet managed to return the maximum and minimum values for each category in a single script, so we would need 4 separate pieces of code to find these values.
+Clicking on the link above will bring us into the code used to return the maximum and minimum value of each of the columns from the dataset. As you can see just a few lines of code were required to return these values, including the species of each flower. Here we can quickly see the values and the species neatly formatted as shown in the image below. We can also get the same result by clicking [here](https://github.com/Gerrydh/Project-2018/edit/master/Python%20Scripts/Min%20&%20Max%20Sepal%20Lengths.py). As you can see these are two very different ways to achieve the same result. In my limited programming experience, I have not yet managed to return the maximum and minimum values for each category in a single script, so we would need 4 separate pieces of code to find these values.
 
  ![This is an image of the maximum and minimum lengths of each species](MaxMin.GIF) 
  
  2. [The Describe Function](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Describe.py)
  
-The Describe function is another that can quickly and succinctly return some useful information relating to the dataset. Again clicking into the above link will display the script used to generate this result. This shows us the mean (average) of each category in the dataset. It also returns the maximum and minimum values of each category. The standard deviation tells us about the distribution of scores around the mean. This function also displays the 25th, 50th and 75th percentile for each category.
+The Describe function is another that can quickly and succinctly return some useful information relating to the dataset. Again clicking into the above link will display the script used to generate this result. This shows us the mean (average) of each category in the dataset. It also returns the maximum and minimum values of each category. The standard deviation tells us about the distribution of scores around the mean. This function also displays the 25th, 50th and 75th percentile for each category in the analysis.
  
  ![This is an image of the describe function](Describe.GIF)
+ 
+ 3. The Mean of each category
+   
+      A.[The Sepal Length](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Meanseplen.py)
+   The average Sepal Lenght is 5.84, The range is from 4.3 to 7.9, so this would suggest that 5.84 is a reasonable result, we can investigate this furhter by reviewing the histogram that this code produced. As we can see most of the range is in and around this value so I think is a representitive value.
+   
+   ![Histogram of the Sepal Lengths](Sepal Legths.png)
