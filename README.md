@@ -1,7 +1,7 @@
    # **PROJECT 2018**
    ## **The Iris Flower Data-Set**
    
-   ### Ronald Fisher 
+   ### ___Ronald Fisher___ 
    
    ![A picture of Fisher](Fisher2.jpg)  ![](Flower2.jpg)
    
@@ -18,11 +18,11 @@ The dataset includes the following five attributes:
    4. petal width in centimeters 
    5. class: 
    
-      -- Iris Setosa
+      + Iris Setosa
       
-      -- Iris Versicolour  
+      + Iris Versicolour  
       
-      -- Iris Virginica
+      + Iris Virginica
       
 
 ## The Importance of Data Analytics 
