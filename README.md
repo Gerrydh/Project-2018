@@ -36,40 +36,46 @@ There are many reasons why I chose to use Python to analyse the data. Firstly, a
 
 ## Analysing the Data
 
-1. [The maximun length of each column](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Max%20and%20Min%20by%20species.py)
+1. [Quick Analysis of the Dataset](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/QuickAnalysis.py)
+
+  By way of a quick summary of the dataset we can run the scipt in the link above to quickly and neatly show us the mean, median and standard deviations of each attribute. To display the information like this in excel, we would need to do some calcualtions and then a pivot table.
+  
+  ![This is the analysis of the mean, median and std](QuickAnalysis.GIF)
+
+2. [The maximun length of each column](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Max%20and%20Min%20by%20species.py)
 
 Clicking on the link above will bring us into the code used to return the maximum and minimum value of each of the columns from the dataset. As you can see just a few lines of code were required to return these values, including the species of each flower. Here we can quickly see the values and the species neatly formatted as shown in the image below. We can also get the same result by clicking [here](https://github.com/Gerrydh/Project-2018/edit/master/Python%20Scripts/Min%20&%20Max%20Sepal%20Lengths.py). As you can see these are two very different ways to achieve the same result. In my limited programming experience, I have not yet managed to return the maximum and minimum values for each category in a single script, so we would need 4 separate pieces of code to find these values.
 
  ![This is an image of the maximum and minimum lengths of each species](MaxMin.GIF) 
  
- 2. [The Describe Function](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Describe.py)
+ 3. [The Describe Function](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Describe.py)
  
 The Describe function is another that can quickly and succinctly return some useful information relating to the dataset. Again clicking into the above link will display the script used to generate this result. This shows us the mean (average) of each category in the dataset. It also returns the maximum and minimum values of each category. The standard deviation tells us about the distribution of scores around the mean. This function also displays the 25th, 50th and 75th percentile for each category in the analysis.
  
  ![This is an image of the describe function](Describe.GIF)
  
- 3. The Mean of each category
+ 4. The Mean of each category
  
  ![Histogram of the Sepal Lengths](SepalLegths.png)
  
    
-   3.1. [The Sepal Length](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Meanseplen.py)
+   4.1. [The Sepal Length](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Meanseplen.py)
    The average sepal lenght is 5.84. The range is from 4.30 to 7.90, so this would suggest that 5.84 is a reasonable result, we can investigate this furhter by reviewing the histogram that this code produced. As we can see most of the range is in and around this value so I think is a representitive value.
    
 ![Histogram of the Sepal Widths](SepalWidths.png)
 
    
-   3.2. [The Sepal Width](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Meansepwid.py)
+   4.2. [The Sepal Width](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Meansepwid.py)
       The average sepal width is 3.05. The range in this category is 2.00 to 4.40. Just looking at this, it would suggest that something is a little off as in my opinion the average is too close to the lowest value. Looking at the Histogram will help identify any anomalies in the dataset. As we can see, the vast majority of the sepal widths are bunched very close to the median and there are not many occurrences in the lowest and highest sepal widths.
    
    ![Histogram of the Petal Lengths](PetalLengths.png)
    
-   3.3. [The Petal Length](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Meanpetlen.py)
+   4.3. [The Petal Length](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Meanpetlen.py)
       The average petal length is 3.76. The range in this category 1.00 to 6.90, this has the biggest range in sizes, and it will be interesting to see what the histogram reveals. The average is 3.75. As we can see from the histogram, the data is grouped into two areas. Almost a third are no bigger than two centimetres, which is nearly 50% smaller than the average, while there are not many around the average size. Then the sizes are spread out between 4 and 5.5 centimetres. I would say that the mean is not really reflective of the actual dataset.
    
    ![Histogram of the Sepal Widths](PetalWidths.png)
    
-   3.4. [The Petal Widths](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Meanpetwid.py)
+   4.4. [The Petal Widths](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Meanpetwid.py)
 The average petal width is 1.20. The range of sizes for this attribute is 0.1 to 2.5, this has the biggest disparity between the smallest and biggest petals. Again we can see that the data is divided into 2, and again we can see that almost of the third of the range is well below the average. There are not many occurrences around the average size. As with the petal lengths I would say that it is not representative of the actual sizes. It is worth noting that the petal lengths appear to vary greatly in sizes compared to the sepal sizes.
    
    
