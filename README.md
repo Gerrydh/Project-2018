@@ -38,7 +38,7 @@ There are many reasons why I chose to use Python to analyse the data. Firstly, a
 
 1. [Quick Analysis of the Dataset](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/QuickAnalysis.py)
 
-  By way of a quick summary of the dataset we can run the scipt in the link above to quickly and neatly show us the mean, median and standard deviations of each attribute. To display the information like this in excel, we would need to do some calcualtions and then a pivot table.
+  By way of a quick introduction and summary of the dataset we can run the scipt in the link above to quickly and neatly show us the mean, median and standard deviations of each attribute. The mean function shows the average of each column or atrribute. The median function returns the middle value of the dataset, as there is an uneven number of values, the median is mean of the two middle values. Finally, the standard deviationdescribes how concentrated the data are around the mean. From the results we can see that for most attributes   To display the information like this in excel, we would need to do some calcualtions and then a pivot table.
   
   ![This is the analysis of the mean, median and std](QuickAnalysis.GIF)
 
@@ -77,6 +77,12 @@ The Describe function is another that can quickly and succinctly return some use
    
    4.4. [The Petal Widths](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Meanpetwid.py)
 The average petal width is 1.20. The range of sizes for this attribute is 0.1 to 2.5, this has the biggest disparity between the smallest and biggest petals. Again we can see that the data is divided into 2, and again we can see that almost of the third of the range is well below the average. There are not many occurrences around the average size. As with the petal lengths I would say that it is not representative of the actual sizes. It is worth noting that the petal lengths appear to vary greatly in sizes compared to the sepal sizes.
+
+These results are also reflected in the [Scatterplots](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Scatterplot_Colour.py) below
+
+![Scatterplots](Scatterplots_colour.GIF)
+
+
    
    
   
