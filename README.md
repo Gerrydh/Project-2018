@@ -1,13 +1,8 @@
    # **PROGRAMMING AND SCRIPTING PROJECT 2018**
-   ## **The Iris Flower Data-Set**
    
-   ### ___Ronald Fisher___ 
+   [](Flower2.jpg)
    
-   ![A picture of Fisher](Fisher2.jpg)  ![](Flower2.jpg)
-   
-Ronald Fisher was a British statistician and geneticist and is regarded as the single most important figure in 20th century statistics[1]. Fisher and in particular the Iris Flower Data Set played a significant role in pattern recognition and discriminant analysis which in turn is important in the area of Data Analytics . Data Analysis can be described as the process of inspecting, cleansing, transforming and modelling data with the aim of determining valuable information, suggesting conclusions and supporting decision making[2]
-
-## The Dataset
+   ## The Dataset
 
 The Iris Flower Dataset is an excellent example of a resource that has become a mainstay of the computing world, particularly for testing purposes. New types of sorting and taxonomy models often use the dataset as an input to examine how different technologies will sort and handle datasets. The Iris dataset might be used by a programmer for the purposes of testing a decision tree, or a piece of machine learning software. This is the reason the Iris Flower Dataset is so interesting to programmers, and such is its popularity, the dataset is built into some coding libraries (techopedia.com). The Iris dataset has been analysed via two separate methods. First, plotted the dataset onto scatterplots to determine patterns in the data in relation to the Iris classifications. Second, developed an application in Java that will run a series of methods on the dataset to extract relevant statistical evidence (Hoey,P).
 
@@ -23,6 +18,13 @@ The dataset includes the following five attributes:
       + Iris Versicolour  
       
       + Iris Virginica
+   
+   ### Ronald Fisher 
+   
+   ![A picture of Fisher](Fisher2.jpg)  
+   
+Ronald Fisher was a British statistician and geneticist and is regarded as the single most important figure in 20th century statistics[1]. Fisher and in particular the Iris Flower Data Set played a significant role in pattern recognition and discriminant analysis which in turn is important in the area of Data Analytics. The analysis was conducted in 1936 and contributed to his widely reagrard book *The use of multiple measurements in taxonomic problems*. Data Analysis can be described as the process of inspecting, cleansing, transforming and modelling data with the aim of determining valuable information, suggesting conclusions and supporting decision making[2]
+
       
 
 ## The Importance of Data Analytics 
