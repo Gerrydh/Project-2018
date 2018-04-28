@@ -79,11 +79,11 @@ The Describe function is another that can quickly and succinctly return some use
 ![Histogram of the Sepal Widths](PetalWidths.png) 
 
    
-[Scatterplots](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Scatterplot_Colour.py 
+[Scatterplots](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Scatterplot_Colour.py) 
 ![Scatterplots](Scatterplots_colour.GIF)
 
 
-##Conclusion
+## Conclusion
 
 Looking at the result of the describe function and the histogram, we can tell that the average sepal length is 5.8cm. We can see that the sepal lenghts are concentrated around this mean, with a standard deviation of 0.83 and a range of 4.3-7.9cm. Therefore, the mean is representative values collected. The Setosa range is 4.3-5.8cm meaning on average this attribute has the smallest sepal length. The Versicolor lenght can extend to 7.0cm, while the Virginica recorded the largest lenght at 7.9cm. This is also reflected in the scatterplots.
 
