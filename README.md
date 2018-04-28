@@ -1,12 +1,10 @@
    # **PROGRAMMING AND SCRIPTING PROJECT 2018**
    
-   [](Flower2.jpg)
+   ![](Flower2.jpg)
    
    ## The Dataset
 
-The Iris Flower Dataset is an excellent example of a resource that has become a mainstay of the computing world, particularly for testing purposes. New types of sorting and taxonomy models often use the dataset as an input to examine how different technologies will sort and handle datasets. The Iris dataset might be used by a programmer for the purposes of testing a decision tree, or a piece of machine learning software. This is the reason the Iris Flower Dataset is so interesting to programmers, and such is its popularity, the dataset is built into some coding libraries (techopedia.com). The Iris dataset has been analysed via two separate methods. First, plotted the dataset onto scatterplots to determine patterns in the data in relation to the Iris classifications. Second, developed an application in Java that will run a series of methods on the dataset to extract relevant statistical evidence (Hoey,P).
-
-The dataset includes the following five attributes:
+The dataset consists the following five attributes:
    1. sepal length in centimeters 
    2. sepal width in centimeters 
    3. petal length in centimeters 
@@ -18,6 +16,11 @@ The dataset includes the following five attributes:
       + Iris Versicolour  
       
       + Iris Virginica
+      
+Based on the these attribues, Fisher was developed a linear discriminant model to distinguish the species from each other. The petal of a flower can be described as the outter parts of the flower, it is leaf and encloses the developing bud. While the petal are upright and colorful[2]. 
+
+The Iris Flower Dataset is interesting to programmers as it is an excellent example of a resource that has become a mainstay of the computing world, particularly for testing purposes, and such is its popularity, the dataset is built into many coding libraries[3]. New types of sorting and taxonomy models often use the dataset as an input to examine how different technologies will sort and handle datasets. The Iris dataset might be used by a programmer for the purposes of testing a decision tree, or a piece of machine learning software. The Iris dataset has been analysed via two separate methods. First, plotted the dataset onto scatterplots to determine patterns in the data in relation to the Iris classifications. Second, developed an application in Java that will run a series of methods on the dataset to extract relevant statistical evidence[4].
+
    
    ### Ronald Fisher 
    
