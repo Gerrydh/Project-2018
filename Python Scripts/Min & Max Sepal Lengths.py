@@ -3,10 +3,10 @@
 #https://stackoverflow.com/questions/46281738
 
 with open("Iris data2.csv") as file: # open, then close the Iris Dataset file
-    lines = file.read().split("\n")     #Read each line
+    lines = file.read().split("\n")     #Read each line and split each line 
 
-num_list = [] 
-for line in lines:
+num_list = [] # only numbers
+for line in lines: # reach each line by line
     try:
         item = line.split(",")[0] #Choose 1st column which is seperated by a comma
         num_list.append(float(item))    #Try to parse 
