@@ -46,7 +46,7 @@ A [Quick Analysis of the Dataset](https://github.com/Gerrydh/Project-2018/blob/m
 
   By way of a quick introduction and summary of the dataset we can run the scipt in the link above to quickly and neatly show us the mean, median and standard deviations of each attribute. The mean function shows the average of each column or atrribute. The median function returns the middle value of the dataset, as there is an uneven number of values, the median is mean of the two middle values. Finally, the standard deviation describes how concentrated the data are around the mean. 
   
-  ![This is the analysis of the mean, median and std](QuickAnalysis.GIF)
+  ![This is the analysis of the mean, median and std](QuickAnalysis2.GIF)
 
 2. [The maximun length of each column](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Max%20and%20Min%20by%20species.py)
 
