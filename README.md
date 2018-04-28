@@ -62,19 +62,20 @@ The Describe function is another that can quickly and succinctly return some use
  
  D. The Mean of each category
  
- [Sepal lenght script](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Meanseplen.py)
- ![Histogram of the Sepal Lengths](SepalLegths.png) 
+ 
+[Sepal lenght script](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Meanseplen.py)
+![Histogram of the Sepal Lengths](SepalLegths.png) 
  
  
- [Sepal widths script](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Meansepwid.py)  
+[Sepal width script](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Meansepwid.py)  
 ![Histogram of the Sepal Widths](SepalWidths.png) 
 
    
-[Petal lengths script](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Meanpetlen.py   
+[Petal length script](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Meanpetlen.py)   
 ![Histogram of the Petal Lengths](PetalLengths.png) 
    
    
-[Petal widths script](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Meanpetwid.py)   
+[Petal width script](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Meanpetwid.py)   
 ![Histogram of the Sepal Widths](PetalWidths.png) 
 
    
@@ -82,6 +83,16 @@ The Describe function is another that can quickly and succinctly return some use
 ![Scatterplots](Scatterplots_colour.GIF)
 
 
+##Conclusion
+
+Looking at the result of the describe function and the histogram, we can tell that the average sepal length is 5.8cm. We can see that the sepal lenghts are concentrated around this mean, with a standard deviation of 0.83 and a range of 4.3-7.9cm. Therefore, the mean is representative values collected. The Setosa range is 4.3-5.8cm meaning on average this attribute has the smallest sepal length. The Versicolor lenght can extend to 7.0cm, while the Virginica recorded the largest lenght at 7.9cm. This is also reflected in the scatterplots.
+
+The average sepal width is 3.05cm as shown in the histogram, the widths are concentrated around this mean with a standard deviation of .43 and a range of 2.0-4.4cm. The Setosa range reported the widest sepal at 4.4, while the versicolour, the narrowest at only 2cms. However, given the concentration of this data, there is not great variances amoung the different species of Iris in this attribute.
    
-   
-  
+The average petal length is 3.75cm. As can be seen in the histogram, the data is grouped in two areas. one third of all sizes recorded are almost 50% smaller than the mean. The sizes for this attribute range from 1.0-6.9cms anf the standard deviation is 1.76 which is by far the biggest deviation of any of the attributes. Given this informnation, the petal length will likely be the most useful attribute when trying to classify the species.
+
+The describe function tells us that the average petal width is 1.19cms with a standard deviation of 0.76. The range for this attribute is 0.1-2.5. Again we can see that the range of sizes is split in two. looking at the scatterplots we can tell that the Setosa by far has the smallest width, followed by the Versicolor with little crossover in attribute sizes. I would suggest that this attribute would be useful when classifying the species. 
+
+In summary, we can make a some reasonable assumptions based on the dataset and the results of the Python scripts and histograms and scatterplots. For example if the petal is small in both lenght and width and a short sepal we can assume that the species is most likely a Setosa. And if the flower has a long sepal and petal, then the species is most likely a Virginica.
+
+
