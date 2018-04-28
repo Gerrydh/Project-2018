@@ -44,11 +44,11 @@ There are many reasons why I chose to use Python to analyse the data. Firstly, a
 
 A. [Quick Analysis of the Dataset](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/QuickAnalysis.py)
 
-  By way of a quick introduction and summary of the dataset we can run the scipt in the link above to quickly and neatly show us the mean, median and standard deviations of each attribute. The mean function shows the average of each column or atrribute. The median function returns the middle value of the dataset, as there is an uneven number of values, the median is mean of the two middle values. Finally, the standard deviation describes how concentrated the data are around the mean. 
+  By way of a quick introduction and summary of the dataset we can run the script in the link above to quickly and neatly show us the mean, median and standard deviations of each attribute. The mean function shows the average of each column or attribute. The median function returns the middle value of the dataset, as there is an uneven number of values, the median is mean of the two middle values. Finally, the standard deviation describes how concentrated the data are around the mean.  
   
   ![This is the analysis of the mean, median and std](QuickAnalysis2.GIF)
 
-B. [The maximun length of each column](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Max%20and%20Min%20by%20species.py)
+B. [The maximum length of each column](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Max%20and%20Min%20by%20species.py)
 
 Clicking on the link above will bring us into the code used to return the maximum and minimum value of each of the columns from the dataset. As you can see just a few lines of code were required to return these values, including the species of each flower. Here we can quickly see the values and the species neatly formatted as shown in the image below. We can also get the same result by clicking [here](https://github.com/Gerrydh/Project-2018/edit/master/Python%20Scripts/Min%20&%20Max%20Sepal%20Lengths.py). As you can see these are two very different ways to achieve the same result.
 
@@ -56,14 +56,16 @@ Clicking on the link above will bring us into the code used to return the maximu
  
  C. [The Describe Function](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Describe.py)
  
-The Describe function is another that can quickly and succinctly return some useful information relating to the dataset. Again clicking into the above link will display the script used to generate this result. This shows us the mean (average) of each category in the dataset. It also returns the maximum and minimum values of each category. The standard deviation tells us about the distribution of scores around the mean. This function also displays the 25th, 50th and 75th percentile for each category in the analysis.
+The Describe function is another that can quickly and succinctly return some useful information relating to the dataset. Again, clicking into the above link will display the script used to generate this result. This shows us the mean (average) of each category in the dataset. It also returns the maximum and minimum values of each category. The standard deviation tells us about the distribution of scores around the mean. This function also displays the 25th, 50th and 75th percentile for each category in the analysis.
  
  ![This is an image of the describe function](Describe.GIF)
  
- D. The Mean of each category
+ D. Graphs
+ 
+ Below are the graphs that I have generated using Python. The first four are histograms plotting the values of each attribute from the dataset. The last image is a number of scatterplots visualising each of the measurements.
  
  
-[Sepal lenght script](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Meanseplen.py)
+[Sepal length script](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/Meanseplen.py)
 
 ![Histogram of the Sepal Lengths](SepalLegths.png) 
  
@@ -91,13 +93,13 @@ The Describe function is another that can quickly and succinctly return some use
 
 Looking at the result of the describe function and the histogram, we can tell that the average sepal length is 5.8cm. We can see that the sepal lengths are concentrated around this mean, with a standard deviation of 0.83 and a range of 4.3-7.9cm. Therefore, the mean is representative of the values collected. The Setosa range is 4.3-5.8cm meaning on average this attribute has the smallest sepal length. The Versicolor length can extend to 7.0cm, while the Virginica recorded the largest length at 7.9cm. This is also reflected in the scatterplots.
 
-The average sepal width is 3.05cm as shown in the histogram, the widths are concentrated around this mean with a standard deviation of .43 and a range of 2.0-4.4cm. The Setosa range reported the widest sepal at 4.4, while the versicolour, the narrowest at only 2cms. However, given the concentration of this data, there is not great variances among the different species of Iris in this attribute.
+The average sepal width is 3.05cm as shown in the histogram, the widths are concentrated around this mean with a standard deviation of .43 and a range of 2.0-4.4cm. The Setosa range reported the widest sepal at 4.4cm, while the versicolour, the narrowest at only 2cm. However, given the concentration of this data, there is not great variances among the different species of Iris in this attribute.
    
-The average petal length is 3.75cm. As can be seen in the histogram, the data is grouped in two areas. one third of all sizes recorded are almost 50% smaller than the mean. The sizes for this attribute range from 1.0-6.9cms and the standard deviation is 1.76 which is by far the biggest deviation of any of the attributes. The Setosa has by far the smallest petal at 1cm, compared to the Virginca whose smallest petal was 4.5 and the largest was 6.9cm.
+The average petal length is 3.75cm. As can be seen in the histogram, the data is grouped in two areas. one third of all sizes recorded are almost 50% smaller than the mean. The sizes for this attribute range from 1.0-6.9cm and the standard deviation is 1.76 which is by far the biggest deviation of any of the attributes. The Setosa has by far the smallest petal at 1cm, compared to the Virginca whose smallest petal was 4.5cm and the largest was 6.9cm.
 
-The describe function tells us that the average petal width is 1.19cms with a standard deviation of 0.76. The range for this attribute is 0.1-2.5. Again, we can see that the range of sizes is split in two. Looking at the scatterplots we can tell that the Setosa by far has the smallest width, followed by the Versicolor with little crossover in attribute sizes. I would suggest that this attribute would be useful when classifying the species. 
+The describe function tells us that the average petal width is 1.19cm with a standard deviation of 0.76. The range for this attribute is 0.1-2.5cm. Again, we can see that the range of sizes is split in two. Looking at the scatterplots we can tell that the Setosa by far has the smallest width, followed by the Versicolor with little crossover in attribute sizes. I would suggest that this attribute would be useful when classifying the species. 
 
-In summary, we can make some reasonable assumptions based on the dataset and the results of the Python scripts and histograms and scatterplots. For example, if the petal is small in both length and width and a short sepal we can assume that the species is most likely a Setosa. And if the flower has a long sepal and petal, then the species is most likely a Virginica.
+In summary, we can make some reasonable assumptions based on the dataset and the results of the Python scripts, histograms and scatterplots. The first observation I made was that the petal is smaller than the sepal in both length and width. The data also tells us that if the petal is small in both length and width and a short sepal we can assume that the species is most likely a Setosa. And if the flower has a long sepal and petal, then the species is most likely a Virginica. Overall, I found the Iris Dataset an interesting dataset to use, it was not so large that it was rendered unmanageable for a novice in programming and not too small that it was unchallenging either. I also found Python a really useful tool for interrogating the data and generating visual aids to help understand and explain the dataset. 
 
 
 ## References
