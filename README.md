@@ -2,7 +2,7 @@
    
    ![](Flower2.jpg)
    
-   ## The Dataset
+   ## The Iris Dataset
 
 The dataset consists the following five attributes:
    1. sepal length in centimetres 
@@ -42,9 +42,9 @@ There are many reasons why I chose to use Python to analyse the data. Firstly, a
 
 ## Analysing the Data
 
-1. [Quick Analysis of the Dataset](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/QuickAnalysis.py)
+A [Quick Analysis of the Dataset](https://github.com/Gerrydh/Project-2018/blob/master/Python%20Scripts/QuickAnalysis.py)
 
-  By way of a quick introduction and summary of the dataset we can run the scipt in the link above to quickly and neatly show us the mean, median and standard deviations of each attribute. The mean function shows the average of each column or atrribute. The median function returns the middle value of the dataset, as there is an uneven number of values, the median is mean of the two middle values. Finally, the standard deviationdescribes how concentrated the data are around the mean. From the results we can see that for most attributes   To display the information like this in excel, we would need to do some calcualtions and then a pivot table.
+  By way of a quick introduction and summary of the dataset we can run the scipt in the link above to quickly and neatly show us the mean, median and standard deviations of each attribute. The mean function shows the average of each column or atrribute. The median function returns the middle value of the dataset, as there is an uneven number of values, the median is mean of the two middle values. Finally, the standard deviation describes how concentrated the data are around the mean. 
   
   ![This is the analysis of the mean, median and std](QuickAnalysis.GIF)
 
